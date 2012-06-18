@@ -148,6 +148,7 @@ typedef enum {
 @property (nonatomic, retain) RMTileCache *tileCache;
 
 @property (nonatomic, retain) UIView *backgroundView;
+@property (nonatomic, readonly) UIScrollView *mapScrollView;
 
 @property (nonatomic) BOOL showsUserLocation;
 @property (nonatomic, readonly, retain) RMUserLocation *userLocation;

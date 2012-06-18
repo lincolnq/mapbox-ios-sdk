@@ -1352,6 +1352,10 @@
     [self insertSubview:backgroundView atIndex:0];
 }
 
+- (UIScrollView*) mapScrollView {
+    return mapScrollView;
+}
+
 - (double)metersPerPixel
 {
     return metersPerPixel;
